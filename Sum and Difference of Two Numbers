@@ -1,0 +1,20 @@
+https://www.hackerrank.com/challenges/sum-numbers-c/problem
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int n, m;
+    float a, b;
+    scanf("%d%d", &m, &n);
+    scanf("%f%f", &a, &b);
+    int sum1 = m + n;
+    float sum2 = a + b;
+    int diff1 = m - n;
+    float diff2 = a - b;
+    printf("%d %d\n%.1f %.1f", sum1, diff1, sum2, diff2);
+    return 0;
+}
